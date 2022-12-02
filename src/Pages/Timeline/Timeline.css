@@ -1,0 +1,30 @@
+
+
+.modal {
+    visibility: hidden;
+    opacity: 0;
+    background: #4e5d7893;
+    transition: all .4s;
+  }
+  
+  .modal:target {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .modal__content {
+    border-radius: 20px;
+    position: relative;
+    width: 700px;
+    max-width: 90%;
+    background: #fff;
+    padding: 1em 2em;
+  }
+  
+  .modal__close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #585858;
+    text-decoration: none;
+  }
