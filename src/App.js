@@ -4,12 +4,12 @@ import Timeline from "./Pages/Timeline/Timeline";
 import { Routes, Route } from "react-router-dom";
 import Navbar from "./Components/Navbar/Navbar";
 import Feed from "./Pages/Feed/Feed";
-import Community from "./Components/Post/Community/Community";
 import Messages from "./Pages/Messages/Messages";
 import Notification from "./Pages/Notification/Notification";
 import Explore from "./Pages/Explore/Explore";
 import Profile from "./Pages/Profile/Profile";
 import Settings from "./Pages/Settings/Settings";
+import Community from "./Pages/Community/Community";
 function App() {
   return (
     <div className="">

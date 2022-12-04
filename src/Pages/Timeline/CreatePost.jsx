@@ -92,19 +92,19 @@ const CreatePost = () => {
                 <div className="flex justify-between gap-4 text-center text-primary pt-3 px-5">
                   <a
                     href="#demo-modal"
-                    className="flex items-center justify-center font-bold"
+                    className="flex items-center justify-center hover:text-red-400 font-bold"
                   >
                     <RiLiveFill className="text-2xl mx-2" /> Live Video
                   </a>
                   <a
                     href="#demo-modal"
-                    className="flex items-start justify-center font-bold"
+                    className="flex items-start justify-center hover:text-[#38cb89] font-bold"
                   >
                     <BsImages className="text-2xl mx-2" /> Photo/Video
                   </a>
                   <a
                     href="#demo-modal"
-                    className="flex items-start justify-center font-bold"
+                    className="flex items-start justify-center hover:text-[#ffb100] font-bold"
                   >
                     <BsEmojiLaughing className="text-2xl mx-2" />
                     Feeling/activity
