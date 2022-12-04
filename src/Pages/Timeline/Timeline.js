@@ -53,13 +53,10 @@ const Timeline = () => {
         </div>
         {/* side menu bar END------------------------------- */}
 
-       <div className="col-span-8 ">
+       <div className="col-span-10 ">
        <Outlet></Outlet>
        </div>
-        {/* active sector----------------------------- */}
-        <div class="col-span-2 h-28 rounded-lg sticky top-20">
-          <Active/>
-          </div>
+       
       </div>
      
     </div>
