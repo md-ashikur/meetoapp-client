@@ -10,11 +10,12 @@ import Explore from "./Pages/Explore/Explore";
 import Profile from "./Pages/Profile/Profile";
 import Settings from "./Pages/Settings/Settings";
 import Community from "./Pages/Community/Community";
+import SideBar from "./Pages/Timeline/SideBar";
 function App() {
   return (
     <div className="">
       <Navbar />
-     
+     <SideBar/>
       <Routes>
         {/* ===timeline================= */}
         <Route path="/" element={<Timeline />}>

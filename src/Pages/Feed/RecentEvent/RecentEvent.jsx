@@ -4,7 +4,7 @@ import { SlGraduation } from "react-icons/sl";
 import { MdOutlineLinkedCamera } from "react-icons/md";
 const RecentEvent = () => {
   return (
-    <div className="bg-base-100 rounded-lg my-3 p-3">
+    <div className="bg-base-100 rounded-lg p-3">
       <div className="flex justify-between items-center p-2">
         <h3 className="text-primary font-bold">Recent Event</h3>
       </div>

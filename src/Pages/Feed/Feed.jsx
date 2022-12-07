@@ -15,9 +15,11 @@ const Feed = () => {
             <CreatePost />
             <Post />
           </div>
-          <div class="col-span-4 h-screen hidden lg:block">
+          <div class="col-span-4  h-screen hidden lg:block">
             <MightLike></MightLike>
-            <RecentEvent />
+           <div className="my-3">
+           <RecentEvent />
+           </div>
             <Birthday />
           </div>
         </div>

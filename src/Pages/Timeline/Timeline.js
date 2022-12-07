@@ -12,7 +12,7 @@ import { TbLogout } from "react-icons/tb";
 
 const Timeline = () => {
   return (
-    <div className=" lg:mx-3 py-20">
+    <div className=" lg:mx-3 lg:pt-20">
       <div class="grid lg:grid-cols-12 lg:gap-3">
         {/* side menu bar start------------------------------- */}
         <div class=" rounded-lg hidden lg:block h-screen lg:col-span-2 lg:sticky top-20">

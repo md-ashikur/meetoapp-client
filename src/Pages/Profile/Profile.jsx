@@ -9,7 +9,7 @@ const Profile = () => {
   return (
     <div>
       {/* cover section start================ */}
-      <div className="relative top-0 shadow-lg bg-base-100 rounded-lg">
+      <div className="relative top-0 lg:shadow-lg bg-base-100 rounded-lg">
         <div className="w-full h-72 relative overflow-hidden rounded-lg">
           <img
             className="w-full relative lg:-top-48"
@@ -29,14 +29,27 @@ const Profile = () => {
           </div>
         </div>
 
-        <div className="px-10 py-5 my-7">
+        <div className="lg:px-10 px-5 py-5 lg:my-7 mt-7">
        
           <h3 className="text-2xl text-primary font-bold">Md Ashikur Rahman</h3>
           <p className="font-semibold text-primary opacity-60">
             All your dreams can come true and I'll make sure of it.
           </p>
+       
+        </div>
+        
+      </div>
+
+      {/* mobile version details============== */}
+
+      <div className="block bg-accent shadow-lg my-3 lg:hidden">
+      <div className="divider my-0 px-5"></div>
+      <div className="bg-base-100 px-5 pb-5 pt-2 rounded-xl">
+        <h3 className="text-primary text-xl font-bold my-3">Details</h3>
+        <Intro/>
         </div>
       </div>
+{/* mobile version details ends============== */}
 
  {/* cover section end================ */}
 
@@ -46,6 +59,7 @@ const Profile = () => {
         
         <div class="col-span-3 h-screen hidden lg:block">
            <div className="bg-base-100 p-3 rounded-lg">
+           <h3 className="text-primary text-xl font-bold my-3">Intro</h3>
            <Intro/>
            </div>
           

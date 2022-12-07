@@ -3,7 +3,7 @@ import React from 'react';
 const Explore = () => {
     return (
         <div>
-            sdfsfdsdfg
+            Comming soon....
         </div>
     );
 };
