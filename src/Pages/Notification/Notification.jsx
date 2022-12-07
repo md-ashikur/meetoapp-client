@@ -8,8 +8,8 @@ import Active from "../Feed/Active/Active";
 
 const Notification = () => {
   return (
-    <div className="grid grid-cols-10 gap-3">
-      <div className="bg-neutral p-3 col-span-8 rounded-lg">
+    <div className="grid lg:grid-cols-10 gap-3">
+      <div className="bg-neutral p-3 lg:col-span-8 rounded-lg">
         <div className="flex bg-base-100 justify-between rounded-lg  items-center p-2">
           <h3 className="text-primary font-bold px-2">Notification</h3>
 
@@ -38,12 +38,13 @@ const Notification = () => {
           <div className="flex justify-between items-center px-3 ">
             <div className="flex items-center ">
               <MdModeComment className="text-[#38cb89] p-2 bg-[#d7f5e7] text-3xl rounded-full" />
-              <div className="w-10 rounded-full m-3 ">
-                <img
-                  className="rounded-full"
-                  src="https://placeimg.com/80/80/people"
-                  alt=""
-                />
+              <div className="avatar">
+                <div className="w-10 rounded-full m-3">
+                  <img
+                    src="https://images.unsplash.com/photo-1605462863863-10d9e47e15ee?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+                    alt=""
+                  />
+                </div>
               </div>
               <div>
                 <h3 className="text-primary font-semibold text-sm">
@@ -65,12 +66,13 @@ const Notification = () => {
           <div className="flex justify-between items-center px-3 ">
             <div className="flex items-center ">
               <AiTwotoneHeart className="text-red-500 p-2 bg-red-100 text-3xl rounded-full" />
-              <div className="w-10 rounded-full m-3 ">
-                <img
-                  className="rounded-full"
-                  src="https://placeimg.com/80/80/people"
-                  alt=""
-                />
+              <div className="avatar">
+                <div className="w-10 rounded-full m-3">
+                  <img
+                    src="https://images.unsplash.com/photo-1605462863863-10d9e47e15ee?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+                    alt=""
+                  />
+                </div>
               </div>
               <div className="opacity-50">
                 <h3 className="text-primary font-semibold text-sm">
@@ -86,24 +88,23 @@ const Notification = () => {
         </div>
         {/* like on post ends============= */}
 
-
-
-
         {/* share post======(UNSEEN)======= */}
         <div className="bg-base-100 rounded-lg mb-2">
           <div className="flex justify-between items-center px-3 ">
             <div className="flex items-center ">
               <IoIosShareAlt className="text-yellow-500 p-2 bg-yellow-100 text-3xl rounded-full" />
-              <div className="w-10 rounded-full m-3 ">
-                <img
-                  className="rounded-full"
-                  src="https://placeimg.com/80/80/people"
-                  alt=""
-                />
+              <div className="avatar">
+                <div className="w-10 rounded-full m-3">
+                  <img
+                    src="https://images.unsplash.com/photo-1605462863863-10d9e47e15ee?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+                    alt=""
+                  />
+                </div>
               </div>
               <div className="">
                 <h3 className="text-primary font-semibold text-sm">
-                  <span className="font-bold">UnderWorld Shadhin</span> Share your post
+                  <span className="font-bold">UnderWorld Shadhin</span> Share
+                  your post
                 </h3>
                 <p className="text-primary opacity-50 text-xs font-semibold my-0">
                   4 hours ago
@@ -115,18 +116,18 @@ const Notification = () => {
         </div>
         {/* SHARE post ends============= */}
 
-
         {/* share post======(UNSEEN)======= */}
         <div className="bg-base-100 rounded-lg mb-2">
           <div className="flex justify-between items-center px-3 ">
             <div className="flex items-center ">
               <RiUserFollowFill className="text-blue-500 p-2 bg-blue-100 text-3xl rounded-full" />
-              <div className="w-10 rounded-full m-3 ">
-                <img
-                  className="rounded-full"
-                  src="https://placeimg.com/80/80/people"
-                  alt=""
-                />
+              <div className="avatar">
+                <div className="w-10 rounded-full m-3">
+                  <img
+                    src="https://images.unsplash.com/photo-1605462863863-10d9e47e15ee?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+                    alt=""
+                  />
+                </div>
               </div>
               <div className="">
                 <h3 className="text-primary font-semibold text-sm">
@@ -137,16 +138,17 @@ const Notification = () => {
                 </p>
               </div>
             </div>
-           
-         <button className="btn bg-secondary text-base-100 text-sm normal-case rounded-2xl">Follow Back</button>
-           
+
+            <button className="btn bg-secondary text-base-100 lg:text-sm text-xs normal-case rounded-2xl">
+              Follow Back
+            </button>
           </div>
         </div>
         {/* SHARE post ends============= */}
       </div>
 
       {/* active sector----------------------------- */}
-      <div class="col-span-2 h-28 rounded-lg sticky top-20">
+      <div class="lg:col-span-2 h-28 hidden lg:block rounded-lg sticky top-20">
         <Active />
       </div>
     </div>

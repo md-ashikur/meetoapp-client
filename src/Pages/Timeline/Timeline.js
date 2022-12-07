@@ -12,16 +12,16 @@ import { TbLogout } from "react-icons/tb";
 
 const Timeline = () => {
   return (
-    <div className=" mx-3 py-20">
-      <div class="grid grid-cols-12 gap-3">
+    <div className=" lg:mx-3 py-20">
+      <div class="grid lg:grid-cols-12 lg:gap-3">
         {/* side menu bar start------------------------------- */}
-        <div class=" rounded-lg  h-screen col-span-2 sticky top-20">
-          <div className="drawer drawer-mobile ">
+        <div class=" rounded-lg hidden lg:block h-screen lg:col-span-2 lg:sticky top-20">
+          <div className="drawer drawer-mobile">
             <input id="my-drawer-2" type="checkbox" className="drawer-toggle" />
 
             <div className="drawer-side ">
               <label htmlFor="my-drawer-2" className="drawer-overlay"></label>
-              <ul className="menu p-4 w-56 text-base-content ">
+              <ul className="menu p-4 max-w-56 text-base-content ">
                 {/* <!-- Sidebar content here --> */}
                 <li>
                   <NavLink to="/"><CgFeed/> Feed</NavLink>
@@ -53,7 +53,7 @@ const Timeline = () => {
         </div>
         {/* side menu bar END------------------------------- */}
 
-       <div className="col-span-10 ">
+       <div className="lg:col-span-10">
        <Outlet></Outlet>
        </div>
        

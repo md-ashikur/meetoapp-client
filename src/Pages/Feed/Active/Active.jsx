@@ -1,6 +1,6 @@
 import React from "react";
 import { FiMoreHorizontal } from "react-icons/fi";
-import "./Active.css"
+import "./Active.css";
 
 const Active = () => {
   return (
@@ -21,12 +21,7 @@ const Active = () => {
               <button class="ml-3 text-sm font-medium text-gray-900 dark:text-gray-300">
                 Turn on active status
               </button>
-              
-            
             </li>
-
-           
-           
           </ul>
         </div>
         {/* =================more option end============= */}
@@ -35,12 +30,13 @@ const Active = () => {
       {/* active user start--------------------------- */}
       <div className="flex items-center justify-between ">
         <div className="flex items-center">
-          <div className="w-7 rounded-full m-3 ">
-            <img
-              className="rounded-full"
-              src="https://placeimg.com/80/80/people"
-              alt=""
-            />
+        <div className="avatar">
+            <div className="w-7 rounded-full m-3">
+              <img
+                src="https://images.unsplash.com/photo-1605462863863-10d9e47e15ee?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+                alt=""
+              />
+            </div>
           </div>
 
           <h3 className="text-primary font-bold text-sm">Radovan Alic</h3>
@@ -53,12 +49,13 @@ const Active = () => {
       {/* ============================== */}
       <div className="flex items-center justify-between ">
         <div className="flex items-center ">
-          <div className="w-7 rounded-full m-3 ">
-            <img
-              className="rounded-full"
-              src="https://placeimg.com/80/80/people"
-              alt=""
-            />
+          <div className="avatar">
+            <div className="w-7 rounded-full m-3">
+              <img
+                src="https://images.unsplash.com/photo-1605462863863-10d9e47e15ee?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+                alt=""
+              />
+            </div>
           </div>
 
           <p className="text-primary  font-bold text-sm">Shadhin</p>
