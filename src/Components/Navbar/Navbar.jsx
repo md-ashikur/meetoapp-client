@@ -16,7 +16,7 @@ const Navbar = () => {
           <input
             type="search"
             placeholder="Search…"
-            className="input hidden lg:block caret-primary lg:ml-20 rounded-md ease-in-out max-w-80 lg:focus:w-96 focus:outline-none transition duration-700 input-bordered"
+            className="input hidden lg:block caret-primary lg:ml-10 rounded-full ease-in-out max-w-80 lg:focus:w-96 focus:outline-none transition duration-700 input-bordered"
           />
         </div>
       </div>
